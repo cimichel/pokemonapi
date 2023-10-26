@@ -9,3 +9,12 @@ export async function GetAllPokemons(){
     return data.results;
 
 }
+
+export async function getOnePokemon(name: string){
+
+
+const response = await fetch(API_CALL + 'pokemon/' + name);
+const data = await response.json();
+return data;
+
+}
