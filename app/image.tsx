@@ -1,14 +1,10 @@
-'use client'
-import Image from 'next/image'
+"use client";
+import Image from "next/image";
 
+export function ClientImage({ src, name }: { src: string; name: string }) {
+  // src={pokemonObj.sprites.other['official-artwork'].front_default}
 
-export function Image({image, name}: {image: string, name: string}){
-return(
-    <Image 
-        src={pokemonObj.sprites.other['official-artwork'].front_default}
-        alt={"picture of " + name}
-        width='100'
-        height='100'
-        />
-)
+  return (
+    <Image src={src} alt={"picture of " + name} width="200" height="200" />
+  );
 }

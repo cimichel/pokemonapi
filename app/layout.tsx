@@ -4,6 +4,7 @@ import { Providers } from "./providers";
 import Header from '@/app/components/header';
 
 
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
