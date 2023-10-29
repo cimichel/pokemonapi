@@ -26,7 +26,7 @@ export default async function Home() {
             </Box>
             <Box height="80px">
               <Heading>
-                Login to embark on your Pokémon-hunting adventure!" 🚀
+                Login to embark on your Pokemon-hunting adventure! 🚀
               </Heading>
             </Box>
           </SimpleGrid>

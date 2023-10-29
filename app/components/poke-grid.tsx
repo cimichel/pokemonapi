@@ -68,8 +68,9 @@ export function Pokegrid({ pokemons }: Props) {
       <SimpleGrid columns={4} spacing={6} m="10">
         {filteredPokemons.map((pokemon: Pokemon) => {
           return (
-            <Box height="80px">
+            <Box height="80px" key={pokemon.id}>
               <PokemonCard
+              key={pokemon.id}
                 id={pokemon.id}
                 name={pokemon.name}
                 url={pokemon.url}

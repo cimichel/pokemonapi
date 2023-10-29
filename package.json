@@ -8,6 +8,9 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "parserOptions": {
+    "project": "./tsconfig.json"
+    },
   "dependencies": {
     "@apollo/client": "^3.8.6",
     "@apollo/experimental-nextjs-app-support": "^0.4.3",

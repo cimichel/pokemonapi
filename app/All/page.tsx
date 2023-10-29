@@ -5,7 +5,6 @@ import {
   Avatar,
   IconButton,
   CardHeader,
-  BsThreeDotsVertical,
   Flex,
   Box,
   VStack,

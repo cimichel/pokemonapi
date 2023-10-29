@@ -24,11 +24,8 @@ import {
   Stack,
   Text,
   useDisclosure,
-  closeOnOverlayClick,
 } from "@chakra-ui/react";
-import { experimental_useFormState as useFormState } from "react-dom";
 import { useFormStatus } from "react-dom";
-import { createTodo } from "@/app/actions";
 
 export function DetailsModal() {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -53,7 +50,7 @@ export function DetailsModal() {
   };
   return (
     <>
-      <Button onClick={onOpen}>Open Modal</Button>
+      {/* <Button onClick={onOpen}>Open Modal</Button>
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
         <ModalContent>
@@ -94,7 +91,7 @@ export function DetailsModal() {
             <Button onClick={onClose}>Cancel</Button>
           </ModalFooter>
         </ModalContent>
-      </Modal>
+      </Modal> */}
     </>
   );
 }

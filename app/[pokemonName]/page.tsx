@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import { getOnePokemon } from "@/app/graphql/getOnePokemon";
-import image from "@/app.image";
 import {
   Container,
   Box,
@@ -28,12 +27,6 @@ export default async function PokemonPage({
 
   return (
     <>
-            {/* <Image
-              src={pokemonObj.sprites.other["official-artwork"].front_default}
-              alt={"picture of " + pokemonName}
-              width="200"
-              height="200"
-            /> */}
 
       <Container maxW="2xl" bg="#FFFFFF" centerContent>
         <Box
@@ -41,17 +34,17 @@ export default async function PokemonPage({
           bg="blue.400"
           color="white"
           maxW="md"
-          centerContent
           borderRadius="lg"
           borderWidth="2px"
           borderColor="#F5BD21"
         >
           <Heading size="md">Name: {pokemon.name}</Heading>
-          <Heading size="md">Height: {pokemon.height}'</Heading>
+          <Heading size="md">Height: {pokemon.height}inches</Heading>
           <Image
               src={pokemon.sprites.front_default}
               width="200"
               height="200"
+              alt="pokemon image"
             />
           <Flex>
 

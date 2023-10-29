@@ -1,6 +1,5 @@
 import Link from "next/link";
 import { Box, Stack, Button } from "@chakra-ui/react";
-import { userCard } from "./userCard";
 import Image from "next/image";
 
 const Header = () => {
@@ -13,7 +12,6 @@ const Header = () => {
             <Image
               width="60"
               height="60"
-              boxSize="100px"
               objectFit="cover"
               src="/snorlax.png"
               alt="Dan Abramov"

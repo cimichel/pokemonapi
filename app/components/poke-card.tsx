@@ -21,7 +21,7 @@ import {
   ButtonGroup,
   HStack,
 } from "@chakra-ui/react";
-import type Pokemon from "@/app/types/pokemon";
+import type Pokemon from "@/types/pokemon";
 
 interface Props extends Pokemon {}
 
