@@ -33,7 +33,7 @@ export default async function Home() {
           <Container maxW="container.md">
             <SimpleGrid columns={2} spacing={10}>
               <Box position={"relative"} height="400px" width="400px">
-                <Image src="/pikachu.png " alt="sdfsd" fill={true} />
+                <Image src="/pikachu.png" alt="sdfsd" fill={true} />
               </Box>
               <Box height="200px">
                 <Button bg="#E3350D" color="white" size="md">
