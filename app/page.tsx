@@ -22,7 +22,7 @@ export default async function Home() {
         <Container maxW="container.xl" color="#de3131">
           <SimpleGrid columns={2} spacing={10}>
             <Box position={"relative"} height="150px" width="350px">
-              <Image src="/welcome.png " alt="sdfsd" fill={true} />
+              <Image src="/welcome.png" alt="sdfsd" fill={true} />
             </Box>
             <Box height="80px">
               <Heading>
