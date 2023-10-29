@@ -14,7 +14,7 @@ export default function ModalImplementation() {
   const { isOpen, onOpen, onClose } = useDisclosure()
   return (
     <>
-      <Button bg="#c52018" color="#fff6a4" onClick={onOpen}>Add to favorites</Button>
+      <Button bg="#c52018" color="white" onClick={onOpen}>Add to favorites</Button>
 
       <Modal isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
@@ -36,7 +36,7 @@ export default function ModalImplementation() {
 
           </ModalBody>
           <ModalFooter>
-            <Button bg="#c52018" color="#fff6a4" mr={3} onClick={onClose}>
+            <Button bg="#c52018" color="white" mr={3} onClick={onClose}>
               Close
             </Button>
           </ModalFooter>
