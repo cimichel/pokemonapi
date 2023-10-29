@@ -17,7 +17,7 @@ import {
   CardFooter,
   ButtonGroup,
 } from "@chakra-ui/react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { Pokegrid } from "@/app/components/poke-grid";
 import { getAllPokemons } from "@/app/graphql/getAllPokemons";
 

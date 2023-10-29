@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export function ClientImage({ src, name }: { src: string; name: string }) {
   // src={pokemonObj.sprites.other['official-artwork'].front_default}

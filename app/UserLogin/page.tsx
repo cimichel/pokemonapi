@@ -22,7 +22,7 @@ import {
   ButtonGroup,
   AbsoluteCenter,
 } from "@chakra-ui/react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 export default function UserLogin() {
   const { data: session } = useSession();

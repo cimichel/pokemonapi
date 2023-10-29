@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Box, Stack, Button } from "@chakra-ui/react";
-import Image from "next/image";
+import Image from "next/legacy/image";
 
 const Header = () => {
 
